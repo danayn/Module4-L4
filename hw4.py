@@ -53,3 +53,13 @@ food_category.display_category_summary()
 
 
 '''
+class BudgetCategory:
+    # Constructor and private attributes
+    # ...
+
+    # Getters and setters for category name and budget
+    # ...
+    
+food_category = BudgetCategory("Food", 500)
+food_category.add_expense(100)
+food_category.display_category_summary()
